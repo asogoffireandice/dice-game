@@ -61,7 +61,7 @@ function text(){
     }else if(ran2 > ran1){
         document.querySelector("h1").textContent = "Player 2 wins✨";
     }else if(ran1 === ran2){
-        document.querySelector("h1").textContent = "Draw";
+        document.querySelector("h1").textContent = "Draw!🟰";
     }
     
 }
